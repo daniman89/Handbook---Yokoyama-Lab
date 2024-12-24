@@ -3,8 +3,8 @@ layout: default
 title: "VIII Memory And Ageing Center Resources"
 ---
 
-## Table of Contents
-- [Home](../docs/index.md)
+- [Home](index.md)
+
   
 ## Content
 - [I. About The Yokoyama Lab](../docs/I_About_The_Yokoyama_Lab.md)
