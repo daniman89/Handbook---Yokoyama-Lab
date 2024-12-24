@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+
+
+title: "Yokoyama Lab Handbook"
+description: "Documentation for the Yokoyama Lab"
+theme: jekyll-theme-minimal
+markdown: kramdown
+include: 
+  - _includes
+  - _layouts
+  - assets
