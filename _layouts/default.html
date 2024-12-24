@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ page.title | default: site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <div id="sidebar">
-        {% include navigation.md %}
-    </div>
-    <div id="content">
-        {{ content }}
+    <div id="container">
+        <!-- Barra lateral izquierda -->
+        <nav id="sidebar-left">
+            {% include navigation.md %}
+        </nav>
+
+        <!-- Contenido principal -->
+        <main id="content">
+            {{ content }}
+            <div id="navigation-buttons">
+                {% if page.previous %}
+                <a href="{{ page.previous.url }}">⬅ Previous</a>
+                {% endif %}
+                {% if page.next %}
+                <a href="{{ page.next.url }}">Next ➡</a>
+                {% endif %}
+            </div>
+        </main>
+
+        <!-- Barra lateral derecha -->
+        <aside id="sidebar-right">
+            <h3>Contents</h3>
+            <ul>
+                {% for heading in site.pages | where: "path", page.path %}
+                <li><a href="#{{ heading.id }}">{{ heading.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </aside>
     </div>
 </body>
 </html>
