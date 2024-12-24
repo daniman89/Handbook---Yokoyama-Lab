@@ -1,14 +1,13 @@
 
-
 title: "Yokoyama Lab Handbook"
 description: "Documentation for the Yokoyama Lab"
 theme: jekyll-theme-minimal
 markdown: kramdown
-include: 
+
+include:
   - _includes
   - _layouts
   - assets
-
 
 defaults:
   - scope:
@@ -17,8 +16,8 @@ defaults:
       previous: null
       next: null
 
-
-    chapters:
+# Define the chapters for navigation
+chapters:
   - path: "docs/I_About_The_Yokoyama_Lab.md"
     next: "docs/II_People.md"
   - path: "docs/II_People.md"
@@ -26,4 +25,24 @@ defaults:
     next: "docs/III_General_Policies_and_Expectations.md"
   - path: "docs/III_General_Policies_and_Expectations.md"
     previous: "docs/II_People.md"
+    next: "docs/IV_Dry_Lab_Best_Practices.md"
+  - path: "docs/IV_Dry_Lab_Best_Practices.md"
+    previous: "docs/III_General_Policies_and_Expectations.md"
+    next: "docs/V_Wet_Lab_Best_Practices.md"
+  - path: "docs/V_Wet_Lab_Best_Practices.md"
+    previous: "docs/IV_Dry_Lab_Best_Practices.md"
+    next: "docs/VI_New_Hire_Tasks.md"
+  - path: "docs/VI_New_Hire_Tasks.md"
+    previous: "docs/V_Wet_Lab_Best_Practices.md"
+    next: "docs/VII_Resources_&_Technical_Tutorials.md"
+  - path: "docs/VII_Resources_&_Technical_Tutorials.md"
+    previous: "docs/VI_New_Hire_Tasks.md"
+    next: "docs/VIII_Memory_And_Aging_Center_Resources.md"
+  - path: "docs/VIII_Memory_And_Aging_Center_Resources.md"
+    previous: "docs/VII_Resources_&_Technical_Tutorials.md"
+    next: "docs/IX_Recommended_Reading.md"
+  - path: "docs/IX_Recommended_Reading.md"
+    previous: "docs/VIII_Memory_And_Aging_Center_Resources.md"
 
+# Define settings for links to files and folders
+permalink: /:categories/:title/
