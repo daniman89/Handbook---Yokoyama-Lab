@@ -2,10 +2,6 @@
 layout: default
 title: "I About The Yokoyama Lab"
 ---
-# I About The Yokoyama Lab
-
-
-[Home](index.md)  
 
 ## Table of Contents
 - [Home](../docs/index.md)
@@ -21,7 +17,7 @@ title: "I About The Yokoyama Lab"
 - [VIII. Memory And Aging Center Resources](../docs/VIII_Memory_And_Aging_Center_Resources.md)
 - [IX. Recommended Reading](../docs/IX_Recommended_Reading.md)
 
-- 
+ 
 # I. About The Yokoyama Lab
 
 Welcome! We’re glad you’ve joined us and that our work, and the values that guide it, resonate with you. We hope that your time with us will be an enjoyable one of professional growth, new skill development, and fun.
