@@ -1,3 +1,9 @@
+---
+layout: default
+title: "II People"
+---
+# II People
+
 [Home](index.md)  
 ## Table of Contents
 - [About The Yokoyama Lab](I_About_The_Yokoyama_Lab.md)
