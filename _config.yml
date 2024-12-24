@@ -8,3 +8,16 @@ include:
   - _includes
   - _layouts
   - assets
+
+
+defaults:
+  - scope:
+      path: "docs"
+    values:
+      previous: null
+      next: null
+chapters:
+  - path: "docs/I_About_The_Yokoyama_Lab.md"
+    next: "docs/II_People.md"
+  - path: "docs/II_People.md"
+    previous: "docs/I_About_The_Yokoyama_Lab.md"
