@@ -16,8 +16,14 @@ defaults:
     values:
       previous: null
       next: null
-chapters:
+
+
+    chapters:
   - path: "docs/I_About_The_Yokoyama_Lab.md"
     next: "docs/II_People.md"
   - path: "docs/II_People.md"
     previous: "docs/I_About_The_Yokoyama_Lab.md"
+    next: "docs/III_General_Policies_and_Expectations.md"
+  - path: "docs/III_General_Policies_and_Expectations.md"
+    previous: "docs/II_People.md"
+
