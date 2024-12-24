@@ -1,3 +1,7 @@
+---
+layout: default
+title: "VI. New Hire Tasks"
+---
 
 ## Table of Contents
 - [Home](../docs/index.md)
