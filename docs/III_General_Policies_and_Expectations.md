@@ -4,7 +4,7 @@ title: "III. General Policies and Expectations"
 ---
 
 
-[Home](_includes/navigation.md)  
+[Home](index.md)  
 ## Table of Contents
 - [About The Yokoyama Lab](I_About_The_Yokoyama_Lab.md)
 - [People](II_People.md)
