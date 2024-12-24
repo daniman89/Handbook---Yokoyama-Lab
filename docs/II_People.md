@@ -63,3 +63,13 @@ These external collaborators are crucial for expanding our research scope and ne
 - **Jalayne Arias, JD, MA** – Associate Professor, Health Policy & Behavioral Sciences - Georgia State University School of Public Health. Expert in legal and ethical issues related to neurodegenerative disease and predictive genetic testing
 - **Shea Andrews, PhD** – Assistant Professor of Psychiatry; PI, Andrews Lab, UCSF
 - **Iris Broce-Diaz, PhD** – Assistant Professor, Neuroscience, UCSD
+
+<div id="navigation-buttons">
+    {% if page.previous %}
+        <a href="{{ page.previous.url }}">⬅ Previous</a>
+    {% endif %}
+    {% if page.next %}
+        <a href="{{ page.next.url }}">Next ➡</a>
+    {% endif %}
+</div>
+
