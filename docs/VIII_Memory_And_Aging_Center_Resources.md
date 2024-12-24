@@ -16,8 +16,8 @@ title: "VIII Memory And Ageing Center Resources"
 - [VII. Resources & Technical Tutorials](../docs/VII_Resources_&_Technical_Tutorials.md)
 - [VIII. Memory And Aging Center Resources](../docs/VIII_Memory_And_Aging_Center_Resources.md)
 - [IX. Recommended Reading](../docs/IX_Recommended_Reading.md)
-- 
-#VIII.Memory And Ageing Center Resources
+  
+# VIII.Memory And Ageing Center Resources
 
 ## A. MACipedia
 The intranet for the UCSF Memory and Aging Center, where we share best practices, standard operating procedures, institutional memory, and helpful information for fellow MACers.
