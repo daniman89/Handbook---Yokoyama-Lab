@@ -1,7 +1,6 @@
-
 ---
 layout: default
-title: "IX. Recommended Reading"
+title: "IX AVEER"
 ---
 
 [Home](../docs/index.md)
