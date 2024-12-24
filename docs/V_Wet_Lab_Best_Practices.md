@@ -2,8 +2,8 @@
 layout: default
 title: "V Wet Lab Best Practices"
 ---
-## Table of Contents
-- [Home](../docs/index.md)
+- [Home](index.md)
+
   
 ## Content
 - [I. About The Yokoyama Lab](../docs/I_About_The_Yokoyama_Lab.md)
@@ -15,9 +15,8 @@ title: "V Wet Lab Best Practices"
 - [VII. Resources & Technical Tutorials](../docs/VI_Resources_&_Technical_Tutorials.md)
 - [VIII. Memory And Aging Center Resources](../docs/VIII_Memory_And_Aging_Center_Resources.md)
 - [IX. Recommended Reading](../docs/IX_Recommended_Reading.md)
--
--
-- # V. Wet Lab Best Practices
+
+# V. Wet Lab Best Practices
 
 
 ## A. Wet Lab Operations
