@@ -1,3 +1,10 @@
+---
+layout: default
+title: "I About The Yokoyama Lab"
+---
+# I About The Yokoyama Lab
+
+
 [Home](index.md)  
 ## Table of Contents
 - [About The Yokoyama Lab](I_About_The_Yokoyama_Lab.md)
