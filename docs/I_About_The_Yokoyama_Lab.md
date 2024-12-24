@@ -4,7 +4,7 @@ title: "I About The Yokoyama Lab"
 ---
 
 
-- [Home](index.md)
+- [Home](../docs/index.md)
   
 ## Content
 - [I. About The Yokoyama Lab](../docs/I_About_The_Yokoyama_Lab.md)
