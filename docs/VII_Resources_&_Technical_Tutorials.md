@@ -1,3 +1,7 @@
+---
+layout: default
+title: "VII. Resources & Technical Tutorials"
+---
 
 ## Table of Contents
 - [Home](../docs/index.md)
