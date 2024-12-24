@@ -4,7 +4,7 @@ layout: default
 title: "IX. Recommended Reading"
 ---
 
-- [Home](index.md)
+[Home](../docs/index.md)
 
   
 ## Content
