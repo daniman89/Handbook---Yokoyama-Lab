@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: "V Wet Lab Best Practices"
+---
 ## Table of Contents
 - [Home](../docs/index.md)
   
