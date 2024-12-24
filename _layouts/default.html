@@ -10,18 +10,20 @@
     <div id="container">
         <!-- Barra lateral izquierda -->
         <nav id="sidebar-left">
-            {% includes navigation.md %}
+            {% include navigation.md %}
         </nav>
 
         <!-- Contenido principal -->
         <main id="content">
             {{ content }}
+
+            <!-- Botones de navegación (anterior y siguiente) -->
             <div id="navigation-buttons">
                 {% if page.previous %}
-                <a href="{{ page.previous.url }}">⬅ Previous</a>
+                    <a href="{{ page.previous.url }}">⬅ Previous</a>
                 {% endif %}
                 {% if page.next %}
-                <a href="{{ page.next.url }}">Next ➡</a>
+                    <a href="{{ page.next.url }}">Next ➡</a>
                 {% endif %}
             </div>
         </main>
@@ -30,8 +32,8 @@
         <aside id="sidebar-right">
             <h3>Contents</h3>
             <ul>
-                {% for heading in site.pages %}
-                <li><a href="#{{ heading.id }}">{{ heading.title }}</a></li>
+                {% for heading in page.content | split: "\n" %}
+                    <li><a href="#{{ heading | slugify }}">{{ heading }}</a></li>
                 {% endfor %}
             </ul>
         </aside>
