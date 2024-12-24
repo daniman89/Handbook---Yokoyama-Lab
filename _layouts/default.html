@@ -30,7 +30,7 @@
         <aside id="sidebar-right">
             <h3>Contents</h3>
             <ul>
-                {% for heading in site.pages | where: "path", page.path %}
+                {% for heading in site.pages %}
                 <li><a href="#{{ heading.id }}">{{ heading.title }}</a></li>
                 {% endfor %}
             </ul>
