@@ -13,6 +13,7 @@ defaults:
   - scope:
       path: "docs"
     values:
+    layout: "default"
       previous: null
       next: null
 
